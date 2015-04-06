@@ -1,0 +1,202 @@
+﻿/*!
+ * ©2015 CruelWorld Studio
+ * 
+ * 徽教网 | 版权所有  
+ *
+ */
+
+html{
+    font-family:'Microsoft YaHei';
+    font-size:12pt;
+}
+
+body {        
+    background-color:#D9CEC5;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{    
+    opacity:0.8; 
+}
+
+article{    
+    font-size:10pt;    
+    text-indent:20pt;
+    margin:10px auto auto 20px;
+}
+
+article li{text-indent:0;}
+
+footer,nav{    
+    background-color:#3F598C;    
+    height:40px;    
+}
+
+header a, .list-box li, .list-box a{    
+    color:gray;
+    font-size:10pt; 
+}
+
+li{list-style:none;}
+
+nav a{    
+    font-size:12pt;
+    font-weight:bold;  
+    transition-duration:0.25s; 
+    transition-delay:0.05s;
+}
+
+.clear{
+    clear:both;
+    height:10px;
+}
+
+.container{    
+    margin:0 50px 0 50px;       
+    padding:10px; 
+    clear:both;       
+}
+
+.col-1{width:8.333%;}
+
+.col-2{width:16.666%;}
+
+.col-3{width:25%;}
+
+.col-4{width: 33.333%;}
+
+.col-5{width:41.666%;}
+
+.col-6{width:50%;}
+
+.col-7{width:58.333%;}
+
+.col-8{width: 67.777%;}
+
+.col-9{width:75%;}
+
+.col-10{width:83.333%;}
+
+.col-11{width:91.666%;}
+
+.col-12{width:100%;}
+
+.h1{font-size:xx-large;}
+
+.h2{font-size:x-large;}
+
+.h3{font-size:large}
+
+.h4{font-size:medium;}
+
+.h5{font-size:small;}
+
+.h6{font-size:x-small;}
+
+.left{float:left;}
+
+.list-box{
+    
+}
+
+.page-header-red,.page-header-blue{
+    width: 650px; 
+    height:45px;
+    color:white;
+}
+
+.page-header-blue{background-color: rgb(63, 89, 140);}
+
+.page-header-red{background-color:#8C4552;}
+
+.right{float:right;}
+
+.span-white,.span-white a{color:white;}
+
+.span-black,.span-black a,#title a {color:black;}
+
+#background {    
+    background-image: url('../images/bg.jpg');  
+    width:64em;
+    margin:0 auto 0 auto;  
+}
+
+#contact {    
+    background-image: url('../images/图层%204.png');   
+    color:black;
+    height: 227px;
+    width: 276px;      
+    font-size:10pt;   
+    opacity:0.8; 
+}
+
+#students,#teachers{
+    color:white;   
+    height:100px;     
+    padding:20px 10px 20px 30px;
+    transition-duration:0.3s;
+    transition-delay:0.05s;  
+}
+
+#students{background-color:#3F598C;}
+
+#title{
+    width:22%;
+    height:500px;      
+    font-size:11pt;
+    line-height:18pt;
+    float:left;    
+}
+
+#teachers{background-color:#8C4552;}
+
+#teachers:hover{
+    background-color:ActiveBorder;
+    color:#3F598C;
+}
+
+#students:hover{
+    background-color:ActiveBorder;
+    color:#8C4552;
+}
+
+/*幻灯CSS*/
+.mainslide{
+    overflow:hidden;
+    position:relative;
+}
+
+.flashslide{
+    overflow:hidden;
+    position:relative;
+}
+
+.imageslide{
+    text-align:right;
+    position:relative;
+    z-index:999;
+}
+
+.bitdiv{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    margin:0 10px 10px 0px;
+    cursor:pointer;
+    float:right;
+}
+.defimg{
+    background-image:url(../images/02.png);
+    opacity:0.3;
+}
+.curimg{
+    background-image:url(../images/01.png);
+    opacity:0.5;            
+}
+
+/*表单属性*/
+.datalist{ border:0px;}
