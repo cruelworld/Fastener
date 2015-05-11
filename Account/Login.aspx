@@ -4,6 +4,7 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+  <div class="container">
     <h2>
         登录
     </h2>
@@ -46,4 +47,5 @@
             </div>
         </LayoutTemplate>
     </asp:Login>
+  </div>
 </asp:Content>

@@ -1,12 +1,27 @@
 body{
-  	font-family: 'Roboto','Microsoft YaHei';
-  	text-rendering:optimizeLegibility;
+  	font-family: "Roboto","Microsoft YaHei";
   	/*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
-a{
-	color: #262840;
+a:link, a:visited{
+    color: #262840;
 }
+
+a:hover{
+    color: #485D73;
+	outline: 0;
+    text-decoration: none;
+}
+
+a:active{
+    color: #485D73;
+}
+
+p{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
 
 li{
     list-style:none;
@@ -23,20 +38,34 @@ section{
 
 nav{
 	background-image: -moz-linear-gradient(#FFF,#EAEAEA);
-	width: 100%;
 	border-bottom: 1.5px solid #DDD;
-	/*position: fixed;*/
-	/*box-shadow:1px 1px 7px #EAEAEA;*/	
+	width: 100%;
+	opacity:0.9;
+	z-index:10;
+	position: fixed;
 }
 
-header{
-	height: 80px;
+/*列表间距*/
+nav .list-inline li,footer .list-inline li{
+	padding: 1em;
+}
+
+footer .list-inline li{
+	padding: 0.6em;
+	padding-left:0;
+}
+
+#Title li{
+	list-style: circle;
+	padding: 0.2em;
+}
+
+header,footer{
+	height: 100px;
 }
 
 footer{
 	width: 100%;
-	height: 90px;
-	bottom: 0;
 	font-size: 9pt;
 	opacity: 0.6;
 }
@@ -65,12 +94,13 @@ input[type="text"]{
 	height: 30px;
 }
 
+
+
 .navbar-brand{
-	display: inline-block;
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin: 5px;
+	margin: 5px 15px 5px -5px;
 }
 
 .container{
@@ -120,20 +150,6 @@ input[type="text"]{
 	opacity: 0.8;
 }
 
-/*列表间距*/
-nav .list-inline li{
-	padding: 1.2em;
-}
-
-footer .list-inline li{
-	padding: 0.6em;
-}
-
-#Title li{
-	list-style: circle;
-	padding: 0.2em;
-}
-
 #Slider{
 	/*background: #CCC;*/
 	/*border: 1px solid #000;*/
@@ -145,7 +161,7 @@ footer .list-inline li{
 }*/
 
 #Sort{
-	text-align: center;
+	
 }
 
 #Description{
@@ -174,13 +190,6 @@ footer .list-inline li{
 }
 
 /*CSS过渡动画*/
-
-a:active,
-a:focus,
-a:hover{
-	color: #485D73;
-	outline: 0;
-}
 
 button:hover,
 button:focus,

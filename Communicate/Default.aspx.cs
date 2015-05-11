@@ -21,8 +21,6 @@ public partial class Forum_Default : System.Web.UI.Page
            //string topictitle = TextBox1.Text.ToString();
            //topicmanage._Title = topictitle;
             //DropDownList2.DataSource = classmanage.GetAllClass("aspnet_Class");
-            
-            
         }
     }
     protected void Button1_Click(object sender, EventArgs e)

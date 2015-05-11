@@ -4,6 +4,7 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+  <div class="container">
     <h2>
         欢迎使用 ASP.NET!
     </h2>
@@ -14,4 +15,5 @@
         您还可以找到 <a href="http://go.microsoft.com/fwlink/?LinkID=152368"
             title="MSDN ASP.NET 文档">MSDN 上有关 ASP.NET 的文档</a>。
     </p>
+  </div>
 </asp:Content>

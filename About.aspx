@@ -3,14 +3,14 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        关于
-    </h2>
-    <p>
-        将内容放置在此处。
-    </p>
 	<section>
     <div class="container">
+      <h2>
+          关于
+      </h2>
+      <p>
+          将内容放置在此处。
+      </p>
       <div class="row">
         <div id="Title" class="col-xs-2">
           <ul>

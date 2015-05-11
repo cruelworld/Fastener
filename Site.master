@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title></title>
+  <title><%: Page.Title %> - 纽扣网</title>
   <link href="Styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="css/site.css" rel="stylesheet" type="text/css" />
   <asp:ContentPlaceHolder ID="HeadContent" runat="server">
@@ -17,13 +17,15 @@
 			    <nav>
 				    <div class="container">
 					    <div>
-						    <img src="images/logo.png" alt="暂无图片" class="navbar-brand">
+                <a runat="server" href="~/Default.aspx">
+                  <img runat="server" src="images/logo.png" alt="暂无图片" class="navbar-brand">
+                </a>
 					    </div>
 					    <ul class="list-inline">
-						    <li><a href="index.html"><strong>资讯站</strong></a></li>
-						    <li><a href="service.html"><strong>服务站</strong></a></li>
-						    <li><a href="collection.html"><strong>集中站</strong></a></li>
-						    <li><a href="communicate.html"><strong>交流站</strong></a></li>
+						    <li><a runat="server" href="~/Default.aspx"><strong>资讯站</strong></a></li>
+						    <li><a runat="server" href="~/#"><strong>服务站</strong></a></li>
+						    <li><a runat="server" href="~/Concentrate/Concentrate.aspx"><strong>集中站</strong></a></li>
+						    <li><a runat="server" href="~/Communicate/Default.aspx"><strong>交流站</strong></a></li>
 					    </ul>
               <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
@@ -39,7 +41,7 @@
 				    </div>
 			    </nav>
 		    </header>
-        <div class="header">
+<%--        <div class="header">
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
@@ -48,7 +50,7 @@
                     </Items>
                 </asp:Menu>
             </div>
-        </div>
+        </div>--%>
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
         </div>

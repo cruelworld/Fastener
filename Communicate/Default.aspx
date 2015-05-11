@@ -1,9 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Forum_Default" %>
+﻿<%@ Page Title="交流站" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Forum_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server" CommandName="study">
-    <div>
+  <div class="container">
+      <div>
         <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="#" 
             CommandName="study" onclick="ImageButton1_Click" />
         <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="#" 
@@ -55,9 +56,6 @@
         
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
             ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
-            
-            
-            
             SelectCommand="SELECT [UserName], [Title], [RevertNum], [PublishTime], [ClassID], [TopicID] FROM [vm_aspnet_UserTopic] WHERE ([RevertNum] &gt;= @RevertNum) ORDER BY [PublishTime] DESC">
             <SelectParameters>
                 <asp:Parameter DefaultValue="30" Name="RevertNum" Type="Int32" />
@@ -122,5 +120,6 @@
             </SelectParameters>
         </asp:SqlDataSource>
     </div>
+  </div>
 </asp:Content>
 
