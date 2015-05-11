@@ -1,43 +1,29 @@
+
+/*基本排版、标题、段落*/
 body {
     font-family: "Roboto" , "Microsoft YaHei";
     font-size: 10pt; /*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
-a:link, a:visited {
+a:link, 
+a:visited {
     color: #262840;
 }
 
-a:hover, .loginDisplay a:hover {
+nav, 
+.loginDisplay {
+    color: #262840;
+}
+
+a:hover, 
+a:active{
     color: #485D73;
     outline: 0;
     text-decoration: none;
 }
 
-a:active {
-    color: #485D73;
-}
-
-p {
-    margin-bottom: 10px;
-    line-height: 1.6em;
-}
-
-nav, .loginDisplay {
-    color: #262840;
-}
-
-li {
-    list-style: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
-    color: #666666;
     font-variant: small-caps;
     text-transform: none;
     font-weight: 200;
@@ -67,6 +53,20 @@ h5, h6 {
     font-size: 1em;
 }
 
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 section {
     padding: 1em;
 }
@@ -88,7 +88,7 @@ nav {
 }
 
 nav .list-inline li, footer .list-inline li {
-    padding: 1.2em;
+    padding: 1em;
 }
 
 footer .list-inline li {
@@ -96,23 +96,16 @@ footer .list-inline li {
     padding-left: 0;
 }
 
-#Title li {
-    list-style: circle;
-    padding: 0.2em;
-}
-
 header, footer {
     height: 100px;
 }
 
 footer {
-    width: 100%;
     font-size: 9pt;
     opacity: 0.6;
 }
 
 /*基本布局*/
-
 .clear {
     clear: both;
 }
@@ -126,10 +119,10 @@ footer {
 
 .container {
     width: 970px !important;
-    margin: 0 auto; /*background: #CCC;*/
+    margin: 0 auto;
 }
 
-.form-group {
+.form-group{
     padding: 0.5em;
 }
 
@@ -269,11 +262,6 @@ div.accountInfo {
 #Slider {
     /*background: #CCC;*/ /*border: 1px solid #000;*/
 }
-
-/*#Slider-Header{
-	background: #262840;
-	color: #FFF;
-}*/
 
 #Sort {
 }
