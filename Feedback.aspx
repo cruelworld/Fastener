@@ -1,9 +1,10 @@
-﻿<%@ Page Title="意见反馈" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Feedback.aspx.cs" Inherits="Feedback" %>
+﻿<%@ Page Title="意见反馈" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+  CodeFile="Feedback.aspx.cs" Inherits="Feedback" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-<section>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="Server">
+  <section>
     <div class="container">
       <div class="page-header">
         <h2>意见反馈</h2><hr>
@@ -33,4 +34,3 @@
     </div>
   </section>
 </asp:Content>
-

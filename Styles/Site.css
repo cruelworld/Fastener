@@ -1,41 +1,40 @@
-body{
-  	font-family: "Roboto","Microsoft YaHei";
-  	font-size:10pt;
-  	/*-webkit-font-smoothing:subpixel-antialiased;*/
+body {
+    font-family: "Roboto" , "Microsoft YaHei";
+    font-size: 10pt; /*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
-a:link, a:visited{
+a:link, a:visited {
     color: #262840;
 }
 
-a:hover,.loginDisplay a:hover{
+a:hover, .loginDisplay a:hover {
     color: #485D73;
-	outline: 0;
+    outline: 0;
     text-decoration: none;
 }
 
-a:active{
+a:active {
     color: #485D73;
 }
 
-p{
+p {
     margin-bottom: 10px;
     line-height: 1.6em;
 }
 
-nav,.loginDisplay{
+nav, .loginDisplay {
     color: #262840;
 }
-li{
-    list-style:none;
+li {
+    list-style: none;
 }
 
-ul{
-	margin: 0;
-	padding: 0;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
     color: #666666;
     font-variant: small-caps;
@@ -44,248 +43,228 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 0px;
 }
 
-h1{
+h1 {
     font-size: 1.6em;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
-h2{
+h2 {
     font-size: 1.5em;
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-size: 1.2em;
 }
 
-h4{
+h4 {
     font-size: 1.1em;
 }
 
-h5, h6{
+h5, h6 {
     font-size: 1em;
 }
 
-section{
-	padding: 1em;
+section {
+    padding: 1em;
 }
 
-nav{
-	background-image: -moz-linear-gradient(#FFF,#EAEAEA);
-	border-bottom: 1.5px solid #DDD;
-	width: 100%;
-	opacity:0.9;
-	z-index:10;
-	position: fixed;
+nav {
+    background-image: -moz-linear-gradient(#FFF,#EAEAEA);
+    border-bottom: 1.5px solid #DDD;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 10;
+    position: fixed;
 }
 
-.navbar-brand{
-	float: left;
-	width: 40px;
-	height: 40px;
-	margin: 5px 15px 5px -5px;
+.navbar-brand {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px 5px -5px;
 }
 
-nav .list-inline li,footer .list-inline li{
-	padding: 1.2em;
+nav .list-inline li, footer .list-inline li {
+    padding: 1.2em;
 }
 
-footer .list-inline li{
-	padding: 0.6em;
-	padding-left:0;
+footer .list-inline li {
+    padding: 0.6em;
+    padding-left: 0;
 }
 
-#Title li{
-	list-style: circle;
-	padding: 0.2em;
+#Title li {
+    list-style: circle;
+    padding: 0.2em;
 }
 
-header,footer{
-	height: 100px;
+header, footer {
+    height: 100px;
 }
 
-footer{
-	width: 100%;
-	font-size: 9pt;
-	opacity: 0.6;
+footer {
+    width: 100%;
+    font-size: 9pt;
+    opacity: 0.6;
 }
 
 /*基本布局*/
 
-.clear
-{
+.clear {
     clear: both;
 }
 
-.title
-{
+.title {
     display: block;
     float: left;
     text-align: left;
     width: auto;
 }
 
-.container{
-	width: 970px !important;
-	margin:0 auto;
-	/*background: #CCC;*/
+.container {
+    width: 970px !important;
+    margin: 0 auto; /*background: #CCC;*/
 }
 
-.form-group{
-	padding: 0.5em;
+.form-group {
+    padding: 0.5em;
 }
 
-.list-inline li{
-	float: left;
+.list-inline li {
+    float: left;
 }
 
-.page-header{
-	padding: 0 1em;
-	padding-bottom: 2em;
+.page-header {
+    padding: 0 1em;
+    padding-bottom: 2em;
 }
 
-.loginDisplay{
-    float:right;
-    padding:1em;
+.loginDisplay {
+    float: right;
+    padding: 1em;
 }
 
-.img-cover{
-	width: 100%;
-	height: 100%;
+.img-cover {
+    width: 100%;
+    height: 100%;
 }
 
 /*表单标签*/
 
-input[type="text"],
-textarea{
-	border-radius: 2px 2px;
-	border: 1px solid #EAEAEA;
-	text-indent: 0.5em;
-	transition-delay:0.05s;
+input[type="text"], textarea {
+    border-radius: 2px 2px;
+    border: 1px solid #EAEAEA;
+    text-indent: 0.5em;
+    transition-delay: 0.05s;
 }
 
-button{
-	border-radius: 2px 2px;
-	border: 0;
-	background: #262840;
-	color: #CCC;
-	padding: 0.5em;
-	opacity: 0.9;
+button {
+    border-radius: 2px 2px;
+    border: 0;
+    background: #262840;
+    color: #CCC;
+    padding: 0.5em;
+    opacity: 0.9;
 }
 
-input[type="text"]{
-	width: 220px;
-	height: 30px;
+input[type="text"] {
+    width: 220px;
+    height: 30px;
 }
 
-fieldset
-{
+fieldset {
     margin: 1em 0px;
     padding: 1em;
     border: 1px solid #ccc;
 }
 
-fieldset p 
-{
+fieldset p {
     margin: 2px 12px 10px 10px;
 }
 
-fieldset.login label, fieldset.register label, fieldset.changePassword label
-{
+fieldset.login label, fieldset.register label, fieldset.changePassword label {
     display: block;
 }
 
-fieldset label.inline 
-{
+fieldset label.inline {
     display: inline;
 }
 
-legend 
-{
+legend {
     font-size: 1.1em;
     font-weight: 600;
     padding: 2px 4px 8px 4px;
 }
 
-input.textEntry 
-{
+input.textEntry {
     width: 320px;
     border: 1px solid #ccc;
 }
 
-input.passwordEntry 
-{
+input.passwordEntry {
     width: 320px;
     border: 1px solid #ccc;
 }
 
-div.accountInfo
-{
+div.accountInfo {
     width: 42%;
 }
 
-.loginDisplay
-{
+.loginDisplay {
     font-size: 1.1em;
     display: block;
     text-align: right;
     padding: 10px;
 }
 
-.loginDisplay a:link
-{
+.loginDisplay a:link {
     color: #262840;
 }
 
-.loginDisplay a:visited
-{
+.loginDisplay a:visited {
     color: #262840;
 }
 
-.loginDisplay a:hover
-{
+.loginDisplay a:hover {
     color: #262840;
 }
 
-.failureNotification
-{
+.failureNotification {
     font-size: 1.2em;
     color: Red;
 }
 
-.bold
-{
+.bold {
     font-weight: bold;
 }
 
-.submitButton
-{
+.submitButton {
     text-align: right;
     padding-right: 10px;
 }
 
-#wrap{ 
-	padding: 0;
-	margin-left: 1em;
+#wrap {
+    padding: 0;
+    margin-left: 1em;
 }
-.bot{ 
-	height:40%; 
-	position:absolute; 
-	background: #262840;
-	bottom: 0;
-	color: #FFF;
-	padding: 2em;
-	display:none;
+.bot {
+    height: 40%;
+    position: absolute;
+    background: #262840;
+    bottom: 0;
+    color: #FFF;
+    padding: 2em;
+    display: none;
 }
-#wrap:hover .bot{ 
-	display:block;
-	opacity: 0.8;
+#wrap:hover .bot {
+    display: block;
+    opacity: 0.8;
 }
 
-#Slider{
-	/*background: #CCC;*/
-	/*border: 1px solid #000;*/
+#Slider {
+    /*background: #CCC;*/ /*border: 1px solid #000;*/
 }
 
 /*#Slider-Header{
@@ -293,47 +272,38 @@ div.accountInfo
 	color: #FFF;
 }*/
 
-#Sort{
-	
+#Sort {
 }
 
-#Description{
-	background: #EAEAEA;
-	text-indent: 2em;
-	font-size: 10pt;
-	padding: 0.8em;
-	opacity: 0.7;
+#Description {
+    background: #EAEAEA;
+    text-indent: 2em;
+    font-size: 10pt;
+    padding: 0.8em;
+    opacity: 0.7;
 }
 
-#Title{
-	padding: 1em;
-	padding-left: 6em;
-	/*border-right: 1px solid #EAEAEA;*/
+#Title {
+    padding: 1em;
+    padding-left: 6em; /*border-right: 1px solid #EAEAEA;*/
 }
 
-#Article{
-	opacity: 0.7;
+#Article {
+    opacity: 0.7;
 }
 
-@font-face{
-	font-family: Roboto;
-	src:url('../font/Roboto-Regular.ttf');
-	src:local('Roboto Regular'), url('../font/Roboto-Regular.ttf') format('truetype');
-	
+@font-face {
+    font-family: Roboto;
+    src: url('../font/Roboto-Regular.ttf');
+    src: local('Roboto Regular'), url('../font/Roboto-Regular.ttf') format('truetype');
 }
 
 /*CSS过渡动画*/
 
-button:hover,
-button:focus,
-textarea:hover,
-textarea:focus,
-input[type="text"]:hover,
-input[type="text"]:focus{
-	box-shadow: 0px 0px 1px #262840;
+button:hover, button:focus, textarea:hover, textarea:focus, input[type="text"]:hover, input[type="text"]:focus {
+    box-shadow: 0px 0px 1px #262840;
 }
 
-button:hover,
-button:focus{
-	color: #FFF;
+button:hover, button:focus {
+    color: #FFF;
 }

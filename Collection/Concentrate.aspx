@@ -1,27 +1,27 @@
-﻿<%@ Page Title="集中站" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Concentrate.aspx.cs" Inherits="Concentrate" %>
+﻿<%@ Page Title="集中站" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+  CodeFile="Concentrate.aspx.cs" Inherits="Concentrate" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="Server">
   <section>
     <div class="container">
       <div id="Slider" class="row">
         <div id="Slider-Header" class="col-xs-4">
           <h1>一个纽扣<br>一个专属的活动站</h1>
           <p>
-            Cras dapibus eu nulla quis semper. Donec quis faucibus nunc, in varius leo. Quisque ullamcorper, orci ut vestibulum porta. 
+            Cras dapibus eu nulla quis semper. Donec quis faucibus nunc, in varius leo. Quisque ullamcorper, orci ut vestibulum porta.
           </p>
           <p>
             Nulla facilisi. Etiam ac sodales nibh. Vivamus suscipit tempus mi, vitae volutpat leo
           </p>
         </div>
         <div class="col-xs-8">
-          <img src="images/slide1.png" alt="暂无图片" class="img-cover" >
+          <img src="images/slide1.png" alt="暂无图片" class="img-cover">
         </div>
       </div>
     </div>
   </section>
-
   <section>
     <div class="container">
       <div id="Description">
@@ -29,7 +29,6 @@
       </div>
     </div>
   </section>
-
   <section>
     <div class="container">
       <div id="Sort" class="row">
