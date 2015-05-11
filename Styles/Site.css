@@ -1,44 +1,41 @@
-﻿/* DEFAULTS
-----------------------------------------------------------*/
-
-body   
-{
-    background: #b6b7bc;
-    font-size: .80em;
-    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    color: #696969;
+body{
+  	font-family: "Roboto","Microsoft YaHei";
+  	font-size:12pt;
+  	/*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
-a:link, a:visited
-{
-    color: #034af3;
+a:link, a:visited{
+    color: #262840;
 }
 
-a:hover
-{
-    color: #1d60ff;
+a:hover,.loginDisplay a:hover{
+    color: #485D73;
+	outline: 0;
     text-decoration: none;
 }
 
-a:active
-{
-    color: #034af3;
+a:active{
+    color: #485D73;
 }
 
-p
-{
+p{
     margin-bottom: 10px;
     line-height: 1.6em;
 }
 
+nav,.loginDisplay{
+    color: #262840;
+}
+li{
+    list-style:none;
+}
 
-/* HEADINGS   
-----------------------------------------------------------*/
+ul{
+	margin: 0;
+	padding: 0;
+}
 
-h1, h2, h3, h4, h5, h6
-{
+h1, h2, h3, h4, h5, h6{
     font-size: 1.5em;
     color: #666666;
     font-variant: small-caps;
@@ -47,148 +44,96 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 0px;
 }
 
-h1
-{
+h1{
     font-size: 1.6em;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
-h2
-{
+h2{
     font-size: 1.5em;
     font-weight: 600;
 }
 
-h3
-{
+h3{
     font-size: 1.2em;
 }
 
-h4
-{
+h4{
     font-size: 1.1em;
 }
 
-h5, h6
-{
+h5, h6{
     font-size: 1em;
 }
 
-/* this rule styles <h1> and <h2> tags that are the 
-first child of the left and right table columns */
-.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
-{
-    margin-top: 0px;
+section{
+	padding: 1em;
 }
 
-
-/* PRIMARY LAYOUT ELEMENTS   
-----------------------------------------------------------*/
-
-.page
-{
-    width: 960px;
-    background-color: #fff;
-    margin: 20px auto 0px auto;
-    border: 1px solid #496077;
+nav{
+	background-image: -moz-linear-gradient(#FFF,#EAEAEA);
+	border-bottom: 1.5px solid #DDD;
+	width: 100%;
+	opacity:0.9;
+	z-index:10;
+	position: fixed;
 }
 
-.header
-{
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    background: #4b6c9e;
-    width: 100%;
+.navbar-brand{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 5px 15px 5px -5px;
 }
 
-.header h1
-{
-    font-weight: 700;
-    margin: 0px;
-    padding: 0px 0px 0px 20px;
-    color: #f9f9f9;
-    border: none;
-    line-height: 2em;
-    font-size: 2em;
+nav .list-inline li,footer .list-inline li{
+	padding: 1.2em;
 }
 
-.main
-{
-    padding: 0px 12px;
-    margin: 12px 8px 8px 8px;
-    min-height: 420px;
+footer .list-inline li{
+	padding: 0.6em;
+	padding-left:0;
 }
 
-.leftCol
-{
-    padding: 6px 0px;
-    margin: 12px 8px 8px 8px;
-    width: 200px;
-    min-height: 200px;
+#Title li{
+	list-style: circle;
+	padding: 0.2em;
 }
 
-.footer
-{
-    color: #4e5766;
-    padding: 8px 0px 0px 0px;
-    margin: 0px auto;
-    text-align: center;
-    line-height: normal;
+header,footer{
+	height: 100px;
 }
 
-
-/* TAB MENU   
-----------------------------------------------------------*/
-
-div.hideSkiplink
-{
-    background-color:#3a4f63;
-    width:100%;
+footer{
+	width: 100%;
+	font-size: 9pt;
+	opacity: 0.6;
 }
 
-div.menu
-{
-    padding: 4px 0px 4px 8px;
+/*表单标签*/
+
+input[type="text"],
+textarea{
+	border-radius: 2px 2px;
+	border: 1px solid #EAEAEA;
+	text-indent: 0.5em;
+	transition-delay:0.05s;
 }
 
-div.menu ul
-{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    width: auto;
+button{
+	border-radius: 2px 2px;
+	border: 0;
+	background: #262840;
+	color: #CCC;
+	padding: 0.5em;
+	opacity: 0.9;
 }
 
-div.menu ul li a, div.menu ul li a:visited
-{
-    background-color: #465c71;
-    border: 1px #4e667d solid;
-    color: #dde4ec;
-    display: block;
-    line-height: 1.35em;
-    padding: 4px 20px;
-    text-decoration: none;
-    white-space: nowrap;
+input[type="text"]{
+	width: 220px;
+	height: 30px;
 }
-
-div.menu ul li a:hover
-{
-    background-color: #bfcbd6;
-    color: #465c71;
-    text-decoration: none;
-}
-
-div.menu ul li a:active
-{
-    background-color: #465c71;
-    color: #cfdbe6;
-    text-decoration: none;
-}
-
-/* FORM ELEMENTS   
-----------------------------------------------------------*/
 
 fieldset
 {
@@ -236,44 +181,27 @@ div.accountInfo
     width: 42%;
 }
 
-/* MISC  
-----------------------------------------------------------*/
-
-.clear
-{
-    clear: both;
-}
-
-.title
-{
-    display: block;
-    float: left;
-    text-align: left;
-    width: auto;
-}
-
 .loginDisplay
 {
     font-size: 1.1em;
     display: block;
     text-align: right;
     padding: 10px;
-    color: White;
 }
 
 .loginDisplay a:link
 {
-    color: white;
+    color: #262840;
 }
 
 .loginDisplay a:visited
 {
-    color: white;
+    color: #262840;
 }
 
 .loginDisplay a:hover
 {
-    color: white;
+    color: #262840;
 }
 
 .failureNotification
@@ -291,4 +219,121 @@ div.accountInfo
 {
     text-align: right;
     padding-right: 10px;
+}
+
+/*基本布局*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.container{
+	width: 970px !important;
+	margin:0 auto;
+	/*background: #CCC;*/
+}
+
+.form-group{
+	padding: 0.5em;
+}
+
+.list-inline li{
+	float: left;
+}
+
+.page-header{
+	padding: 0 1em;
+	padding-bottom: 2em;
+}
+
+.loginDisplay{
+    float:right;
+    padding:1em;
+}
+
+.img-cover{
+	width: 100%;
+	height: 100%;
+}
+
+#wrap{ 
+	padding: 0;
+	margin-left: 1em;
+}
+.bot{ 
+	height:40%; 
+	position:absolute; 
+	background: #262840;
+	bottom: 0;
+	color: #FFF;
+	padding: 2em;
+	display:none;
+}
+#wrap:hover .bot{ 
+	display:block;
+	opacity: 0.8;
+}
+
+#Slider{
+	/*background: #CCC;*/
+	/*border: 1px solid #000;*/
+}
+
+/*#Slider-Header{
+	background: #262840;
+	color: #FFF;
+}*/
+
+#Sort{
+	
+}
+
+#Description{
+	background: #EAEAEA;
+	text-indent: 2em;
+	font-size: 10pt;
+	padding: 0.8em;
+	opacity: 0.7;
+}
+
+#Title{
+	padding: 1em;
+	padding-left: 6em;
+	/*border-right: 1px solid #EAEAEA;*/
+}
+
+#Article{
+	opacity: 0.7;
+}
+
+@font-face{
+	font-family: Roboto;
+	src:url('../font/Roboto-Regular.ttf');
+	src:local('Roboto Regular'), url('../font/Roboto-Regular.ttf') format('truetype');
+	
+}
+
+/*CSS过渡动画*/
+
+button:hover,
+button:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus{
+	box-shadow: 0px 0px 1px #262840;
+}
+
+button:hover,
+button:focus{
+	color: #FFF;
 }
