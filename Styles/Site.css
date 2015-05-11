@@ -25,6 +25,7 @@ p {
 nav, .loginDisplay {
     color: #262840;
 }
+
 li {
     list-style: none;
 }
@@ -152,6 +153,7 @@ footer {
 }
 
 /*表单标签*/
+/*
 
 input[type="text"], textarea {
     border-radius: 2px 2px;
@@ -166,13 +168,14 @@ button {
     background: #262840;
     color: #CCC;
     padding: 0.5em;
-    opacity: 0.9;
+    opacity: 0.9;  
 }
 
 input[type="text"] {
     width: 220px;
     height: 30px;
 }
+*/
 
 fieldset {
     margin: 1em 0px;

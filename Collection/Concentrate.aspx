@@ -17,7 +17,7 @@
           </p>
         </div>
         <div class="col-xs-8">
-          <img src="images/slide1.png" alt="暂无图片" class="img-cover">
+          <img src="../images/slide1.png" alt="暂无图片" class="img-cover">
         </div>
       </div>
     </div>
@@ -33,29 +33,29 @@
     <div class="container">
       <div id="Sort" class="row">
         <div class="col-xs-4">
-          <img src="images/study.png" alt="暂无图片" class="img-cover">
+          <img src="../images/study.png" alt="暂无图片" class="img-cover">
           <h2>学习</h2>
           <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
         </div>
         <div class="col-xs-4">
-          <img src="images/life.png" alt="暂无图片" class="img-cover">
+          <img src="../images/life.png" alt="暂无图片" class="img-cover">
           <h2>生活</h2>
           <p>
             Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.
           </p>
         </div>
         <div class="col-xs-4">
-          <img src="images/race.png" alt="暂无图片" class="img-cover">
+          <img src="../images/race.png" alt="暂无图片" class="img-cover">
           <h2>竞赛</h2>
           <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
         </div>
         <div class="col-xs-4">
-          <img src="images/entertainment.png" alt="暂无图片" class="img-cover">
+          <img src="../images/entertainment.png" alt="暂无图片" class="img-cover">
           <h2>娱乐</h2>
           <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
         </div>
         <div class="col-xs-4">
-          <img src="images/work.png" alt="暂无图片" class="img-cover">
+          <img src="../images/work.png" alt="暂无图片" class="img-cover">
           <h2>创业</h2>
           <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
         </div>
