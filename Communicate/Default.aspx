@@ -34,15 +34,17 @@
       hot</h2>
     <div>
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2"
-        GridLines="None">
+        GridLines="None" CssClass="table">
         <Columns>
           <asp:HyperLinkField DataTextField="UserName" DataNavigateUrlFields="UserName" DataNavigateUrlFormatString="~/MyDetail.aspx?usName = {0}"
-            HeaderText="UserName" />
+            HeaderText="用户名" />
           <asp:HyperLinkField DataTextField="Title" DataNavigateUrlFields="TopicID" DataNavigateUrlFormatString="ForumDetail.aspx?topid = {0}"
-            HeaderText="Title" />
-          <asp:BoundField DataField="RevertNum" HeaderText="RevertNum" SortExpression="RevertNum" />
-          <asp:BoundField DataField="PublishTime" HeaderText="PublishTime" SortExpression="PublishTime" />
-          <asp:BoundField DataField="ClassID" HeaderText="ClassID" SortExpression="ClassID" />
+            HeaderText="话题" />
+          <asp:BoundField DataField="RevertNum" HeaderText="回复数" 
+            SortExpression="RevertNum" />
+          <asp:BoundField DataField="PublishTime" HeaderText="发布时间" 
+            SortExpression="PublishTime" />
+          <asp:BoundField DataField="ClassID" HeaderText="类别" SortExpression="ClassID" />
         </Columns>
       </asp:GridView>
       <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
@@ -56,15 +58,15 @@
       new</h2>
     <div>
       <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource4"
-        BorderStyle="None" GridLines="None">
+        BorderStyle="None" GridLines="None" CssClass="table">
         <Columns>
           <asp:HyperLinkField DataTextField="UserName" DataNavigateUrlFields="UserName" DataNavigateUrlFormatString="~/MyDetail.aspx?usName = {0}"
-            HeaderText="UserName" />
+            HeaderText="用户名" />
           <asp:HyperLinkField DataTextField="Title" DataNavigateUrlFields="TopicID" DataNavigateUrlFormatString="ForumDetail.aspx?topid = {0}"
-            HeaderText="Title" />
-          <asp:BoundField DataField="RevertNum" HeaderText="RevertNum" SortExpression="RevertNum" />
-          <asp:BoundField DataField="PublishTime" HeaderText="PublishTime" SortExpression="PublishTime" />
-          <asp:BoundField DataField="ClassID" HeaderText="ClassID" SortExpression="ClassID" />
+            HeaderText="话题" />
+          <asp:BoundField DataField="RevertNum" HeaderText="回复数" SortExpression="RevertNum" />
+          <asp:BoundField DataField="PublishTime" HeaderText="发布时间" SortExpression="PublishTime" />
+          <asp:BoundField DataField="ClassID" HeaderText="类别" SortExpression="ClassID" />
         </Columns>
       </asp:GridView>
       <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
@@ -75,15 +77,15 @@
       recommend</h2>
     <div>
       <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource3"
-        BorderStyle="None" GridLines="None">
+        BorderStyle="None" GridLines="None" CssClass="table">
         <Columns>
           <asp:HyperLinkField DataTextField="UserName" DataNavigateUrlFields="UserName" DataNavigateUrlFormatString="~/MyDetail.aspx?usName = {0}"
-            HeaderText="UserName" />
+            HeaderText="用户名" />
           <asp:HyperLinkField DataTextField="Title" DataNavigateUrlFields="TopicID" DataNavigateUrlFormatString="ForumDetail.aspx?topid = {0}"
-            HeaderText="Title" />
-          <asp:BoundField DataField="ClassID" HeaderText="ClassID" SortExpression="ClassID" />
-          <asp:BoundField DataField="RevertNum" HeaderText="RevertNum" SortExpression="RevertNum" />
-          <asp:BoundField DataField="PublishTime" HeaderText="PublishTime" SortExpression="PublishTime" />
+            HeaderText="话题" />
+          <asp:BoundField DataField="ClassID" HeaderText="类别" SortExpression="ClassID" />
+          <asp:BoundField DataField="RevertNum" HeaderText="回复数" SortExpression="RevertNum" />
+          <asp:BoundField DataField="PublishTime" HeaderText="发布时间" SortExpression="PublishTime" />
         </Columns>
       </asp:GridView>
       <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"

@@ -8,7 +8,6 @@
     <asp:Button ID="Button1" runat="server" Text="新" onclick="Button1_Click1" />
     <asp:Button ID="Button2"
         runat="server" Text="热" onclick="Button2_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:DropDownList ID="DropDownList1" runat="server">
             <asp:ListItem Selected="True">搜贴</asp:ListItem>
             <asp:ListItem>搜人</asp:ListItem>

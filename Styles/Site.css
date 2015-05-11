@@ -1,5 +1,3 @@
-
-/*基本排版、标题、段落*/
 body {
     font-family: "Roboto" , "Microsoft YaHei";
     font-size: 10pt; /*-webkit-font-smoothing:subpixel-antialiased;*/
@@ -10,12 +8,12 @@ a:visited {
     color: #262840;
 }
 
-nav, 
-.loginDisplay {
-    color: #262840;
+a:hover, .loginDisplay a:hover {
+    color: #485D73;
+    outline: 0;
+    text-decoration: none;
 }
 
-a:hover, 
 a:active{
     color: #485D73;
     outline: 0;
@@ -67,6 +65,16 @@ ul {
     padding: 0;
 }
 
+.table td{
+	text-align: left;
+	padding: 0.5em 1em;
+}
+.table th{
+	text-align: left;
+	padding: 1em;
+}
+
+
 section {
     padding: 1em;
 }
@@ -106,6 +114,7 @@ footer {
 }
 
 /*基本布局*/
+
 .clear {
     clear: both;
 }
@@ -209,10 +218,9 @@ div.accountInfo {
 }
 
 .loginDisplay {
-    font-size: 1.1em;
     display: block;
     text-align: right;
-    padding: 10px;
+    padding: 1em;
 }
 
 .loginDisplay a:link {
