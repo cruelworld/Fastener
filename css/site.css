@@ -8,6 +8,10 @@ a{
 	color: #262840;
 }
 
+li{
+    list-style:none;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -70,7 +74,6 @@ input[type="text"]{
 }
 
 .container{
-	padding: 0;
 	width: 970px !important;
 	/*background: #CCC;*/
 }
