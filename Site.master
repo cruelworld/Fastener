@@ -5,45 +5,41 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title></title>
-	<link href="css/site.css" rel="stylesheet" type="text/css" />
+  <link href="Styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/site.css" rel="stylesheet" type="text/css" />
   <asp:ContentPlaceHolder ID="HeadContent" runat="server">
   </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server">
-    <div class="page">
-		<header>
-			<nav>
-				<div class="container">
-					<div>
-						<img src="images/logo.png" alt="暂无图片" class="navbar-brand">
-					</div>
-					<ul class="list-inline">
-						<li><a href="index.html"><strong>资讯站</strong></a></li>
-						<li><a href="service.html"><strong>服务站</strong></a></li>
-						<li><a href="collection.html"><strong>集中站</strong></a></li>
-						<li><a href="communicate.html"><strong>交流站</strong></a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-        <div class="header">
-            <div class="title">
-                <h1>
-                    我的 ASP.NET 应用程序
-                </h1>
-            </div>
-            <div class="loginDisplay">
+      <div class="page">
+		    <header>
+			    <nav>
+				    <div class="container">
+					    <div>
+						    <img src="images/logo.png" alt="暂无图片" class="navbar-brand">
+					    </div>
+					    <ul class="list-inline">
+						    <li><a href="index.html"><strong>资讯站</strong></a></li>
+						    <li><a href="service.html"><strong>服务站</strong></a></li>
+						    <li><a href="collection.html"><strong>集中站</strong></a></li>
+						    <li><a href="communicate.html"><strong>交流站</strong></a></li>
+					    </ul>
+              <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">登录</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
-                        欢迎您，<span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/"/> ]
-                    </LoggedInTemplate>
+                  <AnonymousTemplate>
+                    [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">登录</a> ]
+                  </AnonymousTemplate>
+                  <LoggedInTemplate>
+                    欢迎您，<span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                    [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/"/> ]
+                  </LoggedInTemplate>
                 </asp:LoginView>
-            </div>
+              </div>
+				    </div>
+			    </nav>
+		    </header>
+        <div class="header">
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
@@ -58,22 +54,20 @@
         </div>
         <div class="clear">
         </div>
-    </div>
-    
-			<footer>
-				<div class="container">
-				<hr>
-					<ul class="list-inline">
-						<li>© 2015 纽扣网 ｜ CW Studio &nbsp &nbsp &nbsp</li>
-						<li><a href="about.html">关于我们</a></li>
-						<li><a href="introduce.html">网站介绍</a></li>
-						<li><a href="feedback.html">意见反馈</a></li>
-						<li><a href="updateblog.html">更新日志</a></li>
-						<li><a href="help.html">帮助</a></li>
-					</ul>
-				</div>
-			</footer>
-    </div>
+  			<footer>
+				  <div class="container">
+				    <hr>
+					  <ul class="list-inline">
+						  <li>© 2015 纽扣网 ｜ CW Studio &nbsp &nbsp &nbsp</li>
+						  <li><a href="about.html">关于我们</a></li>
+						  <li><a href="introduce.html">网站介绍</a></li>
+						  <li><a href="feedback.html">意见反馈</a></li>
+						  <li><a href="updateblog.html">更新日志</a></li>
+						  <li><a href="help.html">帮助</a></li>
+					  </ul>
+				  </div>
+			  </footer>
+      </div>
     </form>
 </body>
 </html>

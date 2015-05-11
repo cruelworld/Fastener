@@ -75,6 +75,7 @@ input[type="text"]{
 
 .container{
 	width: 970px !important;
+	margin:0 auto;
 	/*background: #CCC;*/
 }
 
@@ -89,6 +90,11 @@ input[type="text"]{
 .page-header{
 	padding: 0 1em;
 	padding-bottom: 2em;
+}
+
+.loginDisplay{
+    float:right;
+    padding:1em;
 }
 
 .img-cover{
